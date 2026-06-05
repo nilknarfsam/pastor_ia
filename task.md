@@ -84,6 +84,28 @@ Gerar os cinco artefatos oficiais de base de conhecimento por disciplina do curs
 
 
 
+## Fase AUDIO_OVERVIEW — Status: ✅ CONCLUÍDA (2026-06-04)
+
+Gerar `AUDIO_OVERVIEW.md` em narrativa contínua (estilo NotebookLM) para as 12 disciplinas do Básico, pronto para ElevenLabs.
+
+| Código | Disciplina | Caracteres | Palavras |
+| :---: | :--- | ---: | ---: |
+| 01 | Introdução a Teologia | 5.136 | 817 |
+| 02 | Métodos de Estudos Bíblicos | 4.037 | 632 |
+| 03 | Homilética | 4.201 | 651 |
+| 04 | Arqueologia e Geografia 1 | 4.567 | 705 |
+| 05 | Arqueologia e Geografia 2 | 4.285 | 653 |
+| 06 | Pentateuco | 3.896 | 583 |
+| 07 | Doutrinas Bíblicas do Velho Testamento | 3.309 | 465 |
+| 08 | Teologia do Novo Testamento | 3.471 | 524 |
+| 09 | Livros Poéticos | 3.270 | 502 |
+| 10 | Hermenêutica | 3.580 | 523 |
+| 11 | Os Evangelhos | 3.687 | 553 |
+| 12 | Heresiologia | 3.272 | 456 |
+| **Total** | **12/12** | **46.711** | **7.064** |
+
+**Formato:** narrativa contínua; sem títulos, listas, markdown, números de aula ou referências bíblicas explícitas. Áudio não gerado.
+
 ## Próxima Fase — 2 Auditoria e Consolidação Global
 
 | Artefato | Status |

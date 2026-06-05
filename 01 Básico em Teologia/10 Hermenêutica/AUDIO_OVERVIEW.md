@@ -1,0 +1,17 @@
+Hermenêutica é a arte de interpretar — e, no contexto bíblico, é a disciplina que impede que a gente use a Palavra de Deus como espelho das próprias ideias. O curso abre com uma cena memorável: um oficial estrangeiro lendo profecia no carro, compreendendo palavras, mas não o sentido. É preciso que alguém explique. Ler não é interpretar. Essa distinção orienta tudo.
+
+A hermenêutica fornece princípios; a exegese aplica esses princípios a um texto concreto. A eisegese, que empurra significados de fora para dentro, é tratada como erro grave, não como estilo criativo. Jesus aparece como intérprete perfeito — no caminho de Emaús, nas parábolas que desdobra em particular para discípulos — mostrando que Cristo é chave do Antigo e do Novo. A etimologia ligada ao mensageiro mitológico grego é apenas pano de fundo cultural; o modelo bíblico é superior.
+
+A Bíblia atravessou séculos, línguas e fronteiras. Por isso o leitor moderno enfrenta abismos: geográfico, cultural, linguístico, autoral, cronológico, gramatical, sobrenatural. Abrir a Escritura é viajar sem passaporte adequado se não estudar contexto. Ferramentas — léxicos, gramáticas, comentários sérios, conhecimento histórico — não substituem o Espírito, mas cooperam com a iluminação que hoje aplica verdade já revelada, sem adicionar revelação paralela.
+
+Dois axiomas sustentam o método. Axioma humano: autores reais, públicos reais, gêneros literários diversos, leis de linguagem normais. Axioma divino: inspiração verbal, inerrância nos autógrafos, autoridade, unidade interna. A Palavra é livro humano e palavra de Deus sem colisão. Iluminação não é inspiração nova; é compreensão guiada do que já está escrito.
+
+Regra de ouro repetida: interpretar primeiro no tempo do autor; aplicar depois no tempo do leitor. Mensagem sem contexto vira pretexto para heresia — frase que o curso martela com razão. Mandamentos culturais exigem distinção entre princípio permanente e forma temporária: o eterno de Deus não se confunde com costume da época, mas o eterno se expressa através de costume que precisa ser traduzido, não copiado mecanicamente.
+
+Gêneros importam. Narrativa, lei, poesia, profecia, apocalipse, parábola, epístola — cada um com regras. Harmonizar aparentes contradições parte da confiança na unidade divina. Inerrância é nos originais; variantes de cópia são tratadas com transparência. O homem natural não recebe as coisas do Espírito — advertência paulina que impede orgulho intelectual espiritualizado.
+
+Tiago fecha o espírito do curso: ser praticante, não apenas ouvinte. Hermenêutica madura produz obediência, não debates vazios.
+
+Para pastores e líderes, isso redefine preparação semanal. Antes de aplicar à igreja local, perguntar o que o autor quis. Antes de citar versículo isolado, ler capítulo e livro inteiros. Antes de condenar outros, verificar se sua leitura respeita cultura bíblica. Escola dominical vira oficina de método, não bingo de frases.
+
+A reflexão final é quase uma oração intelectual: o Deus que falou não deixou enigma sem chave, mas exige humildade para encontrá-la. Hermenêutica fiel honra o Espírito que inspirou, o Cristo que interpretou, a igreja que precisa de verdade clara. Quem aprende a interpretar bem deixa de manipular Deus e começa a ser manipulado por sua Palavra — no melhor sentido: moldado, corrigido, enviado. Esse é o destino de todo estudante que não se contenta em ouvir, mas quer entender para obedecer.

@@ -1,0 +1,15 @@
+Os livros poéticos e sapienciais do Antigo Testamento falam uma língua diferente da narrativa histórica ou da lei codificada. Eles não contam apenas o que aconteceu; expressam como a fé sente, pensa e decide no dia a dia. O curso apresenta cinco obras — Salmos, Jó, Provérbios, Eclesiastes e Cânticos — como laboratório de linguagem e de vida espiritual. Antes de entrar em cada livro, o aluno aprende paralelismo hebraico: versos que se respondem por sinônimo, por contraste ou por progressão. Essa estrutura não é ornamento; é chave hermenêutica. Ignorá-la leva a ler poesia como se fosse prosa literal ou, pior, a espiritualizar tudo como alegoria vaga.
+
+Jó ocupa lugar central no debate sobre sofrimento. O justo pode adoecer, perder filhos, ser incompreendido pelos amigos e ainda não estar sendo punido por pecado secreto. Satanás aparece como adversário que pede permissão para testar; Deus mantém soberania sem ser autor do mal. Jó adora sem entender, clama por um redentor vivo que um dia se ponha entre Deus e homem — antecipação cristã que o curso explicita com cuidado. A lição pastoral é enorme: não oferecer explicações baratas a quem sofre.
+
+Salmos é chamado, na tradição citada, de miniatura da Bíblia. Cinco subdivisões ecoam o Pentateuco; quase cem citações no Novo Testamento mostram que Jesus e a igreja oraram com esse saltério. Há lamentação, louvor, confissão, rei, Siao, messianismo. O curso ensina a não tratar salmo como capítulo genérico, mas como poema numerado com intenção litúrgica.
+
+Provérbios desce ao chão da vida: trabalho, língua, família, dinheiro, pureza sexual. Sabedoria prática não contradiz fé; expressa fé em escolhas. Guardar o coração, porque dele brotam as fontes da vida, é aplicação que o pastor repete em aconselhamento premarital e juvenil. Autoria salomônica e compilações posteriores aparecem sem rigidez acadêmica excessiva, mas com respeito à tradição.
+
+Eclesiastes confronta o vazio: projetos sem Deus são fumaça. O autor realista observa injustiça, morte, ciclos repetidos, e ainda conclui que o temor do Senhor é o sentido final. Alegria modesta no presente — comer, trabalhar, amar — não é hedonismo; é dom recebido sob o céu de Deus. Cantares celebra amor conjugal literal, casamento como projeto divino, com tipologia cautelosa para Deus e povo, Cristo e igreja, sem negar o texto terreno.
+
+Interpretação poética exige equilíbrio: nem reduzir tudo a história factual rígida, nem voar em alegoria que apaga o sentido. O Espírito inspirou poesia; o leitor deve honrar forma e conteúdo.
+
+Na prática, esses livros alimentam liturgia, devoção pessoal, pregação temática e aconselhamento. Um casal em crise pode meditar Cantares sem vergonha. Um líder cansado pode ler Eclesiastes sem cinismo. Um adorador em noite escura pode clamar com salmos que Jesus também clamou.
+
+A reflexão final é de beleza e resistência. A fé bíblica não é apenas sistema; é canto, lamento, conselho e suspiro. Quem domina os livros poéticos aprende a falar com Deus nas tonalidades que a própria Bíblia oferece — e essa fluência torna a teologia menos abstrata e mais habitável no coração humano real.
