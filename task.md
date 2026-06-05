@@ -110,7 +110,7 @@ Gerar `AUDIO_OVERVIEW.md` em narrativa contínua (estilo NotebookLM) para as 12 
 
 | Artefato | Status |
 | :--- | :---: |
-| `KB_BASICO_COMPLETO.md` | Pendente |
+| `KB_BASICO_COMPLETO.md` | ✅ (`90_Knowledge_Base/`) |
 | `DICIONARIO_GLOBAL.md` | Pendente |
 | `INDICE_GLOBAL.md` | Pendente |
 | `GRAPH_RELATIONSHIPS.md` | Pendente |
