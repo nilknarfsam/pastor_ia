@@ -106,18 +106,64 @@ Gerar `AUDIO_OVERVIEW.md` em narrativa contínua (estilo NotebookLM) para as 12 
 
 **Formato:** narrativa contínua; sem títulos, listas, markdown, números de aula ou referências bíblicas explícitas. Áudio não gerado.
 
-## Próxima Fase — 2 Auditoria e Consolidação Global
+## Fase 2 — Auditoria e Consolidação Global — ✅ CONCLUÍDA (2026-06-04)
 
 | Artefato | Status |
 | :--- | :---: |
 | `KB_BASICO_COMPLETO.md` | ✅ (`90_Knowledge_Base/`) |
-| `DICIONARIO_GLOBAL.md` | Pendente |
-| `INDICE_GLOBAL.md` | Pendente |
-| `GRAPH_RELATIONSHIPS.md` | Pendente |
+| `DICIONARIO_GLOBAL.md` | ✅ (`90_Knowledge_Base/`) |
+| `INDICE_GLOBAL.md` | ✅ (`90_Knowledge_Base/`) |
+| `GRAPH_RELATIONSHIPS.md` | ✅ (`90_Knowledge_Base/`) |
 
-## Restrições Ativas (Fase 2)
+### DICIONARIO_GLOBAL — Métricas (2026-06-04)
+
+- **Entradas brutas processadas**: 808 (12 disciplinas)
+- **Entradas únicas consolidadas**: 717
+- **Entradas fundidas**: 91
+- **Script**: `_build_dicionario_global.py`
+- **Categorias**: Conceito (351), Pessoa (174), Evento (70), Livro Bíblico (36), Lugar (24), Termo Hebraico (20), Termo Grego (19), Doutrina (15), Heresia (4), Instituição (4)
+- **Termos mais recorrentes**: Adão, Instituto Teológico Renacer, Moisés (5 disciplinas cada)
+- **Disciplinas mais representadas**: Os Evangelhos (117), Hermenêutica (115), Teologia do NT (101)
+
+### INDICE_GLOBAL — Métricas (2026-06-04)
+
+- **Seções temáticas**: 15
+- **Fontes**: `KB_BASICO_COMPLETO.md`, `DICIONARIO_GLOBAL.md`, `INDICE_SEMANTICO.md` (12 disciplinas)
+- **Script**: `_build_indice_global.py`
+- **Entradas processadas**: DICIONARIO_GLOBAL (717), INDICE_SEMANTICO (140 temas), KB temático (1018)
+- **Seções mais populadas**: Teologia (1010), Personagens (662), Cristologia (464), Geografia Bíblica (339), Hermenêutica (272)
+
+### GRAPH_RELATIONSHIPS — Métricas (2026-06-04)
+
+- **Total de nós**: 2.642
+- **Total de arestas**: 4.241
+- **Script**: `_build_graph_relationships.py`
+- **Fontes**: `KB_BASICO_COMPLETO.md`, `DICIONARIO_GLOBAL.md`, `INDICE_GLOBAL.md`, `INDICE_SEMANTICO.md`
+- **Entidades mais conectadas**: Jesus Cristo (63), Cristologia (54), Moisés (53), Hermenêutica (50)
+- **Relações**: ensina, menciona, conecta, contradiz, deriva de, ocorre em, associado a, relacionado a, fundamentado em, explicado por
+
+## Fase 3 — Plataforma Web — Status: 📋 PLANEJAMENTO INICIADO (2026-06-04)
+
+| Entregável | Status |
+| :--- | :---: |
+| `ARQUITETURA_PLATAFORMA_WEB.md` | ✅ |
+| ETL / API / Frontend | Pendente (pós-aprovação) |
+
+### Escopo Fase 3 (design-only)
+
+- Estrutura geral, módulos, navegação, menus e páginas
+- Integração dos artefatos globais + `AUDIO_OVERVIEW`
+- Estratégias futuras: Bíblia Integrada (Fase 4) · Pastor IA Conversacional (Fase 7)
+- Recomendações: banco de dados, API, frontend
+
+### Não implementar nesta fase
+
+- HTML, CSS, Flask, FastAPI, React, banco de dados, deploy
+
+## Restrições Ativas
 
 - Não executar `git push` (salvo solicitação explícita)
-- Não iniciar plataforma web nem busca semântica em produção até conclusão da Fase 2
+- Não implementar código até aprovação da arquitetura
+- Não inventar conteúdo teológico
 
 

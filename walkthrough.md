@@ -1,6 +1,158 @@
 # Walkthrough — Pastor IA
 
-Registro de execução da **Fase 1B: Geração de Base de Conhecimento por Disciplina** e da **Fase AUDIO_OVERVIEW**.
+Registro de execução da **Fase 1B**, **Fase AUDIO_OVERVIEW**, **Fase 2: Consolidação Global** e **Fase 3: Arquitetura da Plataforma Web**.
+
+---
+
+## Fase 3 — ARQUITETURA_PLATAFORMA_WEB (2026-06-04)
+
+**Objetivo**: Projetar a plataforma web integrada do Pastor IA (design-only, sem código).
+
+**Arquivo gerado**: `ARQUITETURA_PLATAFORMA_WEB.md`
+
+### Conteúdo do documento
+
+1. Estrutura geral da plataforma (camadas: apresentação, API, dados, ingestão)
+2. Módulos principais (Home, Cursos, Teologia, Dicionário, Grafo, Busca, Áudio, Pastor IA futuro)
+3. Fluxo de navegação e jornadas do usuário
+4. Estrutura de menus (header, footer, sidebar, mobile)
+5. Estrutura de páginas e rotas conceituais
+6. Estrutura de busca híbrida (BM25 + vetorial + grafo)
+7. Integração: `KB_BASICO_COMPLETO`, `DICIONARIO_GLOBAL`, `INDICE_GLOBAL`, `GRAPH_RELATIONSHIPS`, `AUDIO_OVERVIEW`
+8. Estratégia futura — Bíblia Integrada (Fase 4)
+9. Estratégia futura — IA Conversacional / Pastor IA (Fase 7)
+10. Banco de dados recomendado (PostgreSQL + pgvector + Graph DB + Redis)
+11. API recomendada (REST v1, endpoints por domínio)
+12. Frontend recomendado (Next.js, TypeScript, estrutura de rotas)
+
+### Decisões de design
+
+- MVP: Curso Básico (12 disciplinas) com busca híbrida, sem IA generativa em produção
+- `INDICE_GLOBAL` como espinha dorsal do menu Teologia
+- `DICIONARIO_GLOBAL` como resultado prioritário na busca
+- `GRAPH_RELATIONSHIPS` como painel lateral e explorador dedicado
+- Pastor IA e Bíblia: planejados, não implementados
+
+### Não gerado nesta etapa
+
+- Código (HTML, CSS, Flask, FastAPI, React)
+- Banco de dados, API, deploy
+
+---
+
+## Fase 2 — DICIONARIO_GLOBAL (2026-06-04)
+
+**Objetivo**: Consolidar todos os `DICIONARIO.md` das 12 disciplinas em um dicionário global unificado.
+
+**Fontes**:
+- `DICIONARIO.md` (12 disciplinas)
+- `DOUTRINAS.md` (enriquecimento de definições)
+- `VERSICULOS.md` (relacionamentos bíblicos)
+- `KB_MASTER.md` (contexto complementar)
+
+**Arquivo gerado**: `90_Knowledge_Base/DICIONARIO_GLOBAL.md`
+
+**Script**: `_build_dicionario_global.py`
+
+### Regras aplicadas
+
+1. Deduplicação por chave normalizada (sem acentos, lowercase)
+2. Unificação de sinônimos via `Palavras-chave equivalentes` e mapa de auditoria
+3. Correções ortográficas: Renacer/Renacê, Domíngus/Domínguez, Gnosticismo/guinoticismo, Coelhada/Goel, Carvalho Junho/Júnior
+4. Uma entrada por conceito; definição mais completa preservada
+5. Todas as disciplinas de origem registradas por termo
+
+### Métricas
+
+| Métrica | Valor |
+| :--- | ---: |
+| Entradas brutas | 808 |
+| Entradas únicas | 717 |
+| Entradas fundidas | 91 |
+
+**Por categoria**: Conceito 351 · Pessoa 174 · Evento 70 · Livro Bíblico 36 · Lugar 24 · Termo Hebraico 20 · Termo Grego 19 · Doutrina 15 · Heresia 4 · Instituição 4
+
+**Termos mais recorrentes** (disciplinas distintas): Adão (5), Instituto Teológico Renacer (5), Moisés (5), Davi (4)
+
+**Disciplinas mais representadas**: Os Evangelhos (117), Hermenêutica (115), Teologia do NT (101)
+
+### Não gerado nesta etapa
+
+- `GRAPH_RELATIONSHIPS.md`
+
+---
+
+## Fase 2 — INDICE_GLOBAL (2026-06-04)
+
+**Objetivo**: Criar navegação temática global para a futura plataforma web.
+
+**Fontes**:
+- `KB_BASICO_COMPLETO.md` (seções temáticas: Hermenêutica, Cristologia, Apologética/Heresias, Geografia, Personagens, Eventos)
+- `DICIONARIO_GLOBAL.md` (717 entradas)
+- `INDICE_SEMANTICO.md` (140 temas, 12 disciplinas)
+
+**Arquivo gerado**: `90_Knowledge_Base/INDICE_GLOBAL.md`
+
+**Script**: `_build_indice_global.py`
+
+### Seções temáticas (15)
+
+TEOLOGIA · BIBLIOLOGIA · CRISTOLOGIA · PNEUMATOLOGIA · SOTERIOLOGIA · ECLESIOLOGIA · ESCATOLOGIA · HERMENÊUTICA · HOMILÉTICA · APOLOGÉTICA · HERESIAS · GEOGRAFIA BÍBLICA · PERSONAGENS · EVENTOS HISTÓRICOS · LIVROS BÍBLICOS
+
+Cada seção contém: conceitos, doutrinas, personagens, eventos e disciplinas relacionadas.
+
+### Métricas
+
+| Métrica | Valor |
+| :--- | ---: |
+| Seções temáticas | 15 |
+| Fontes DICIONARIO_GLOBAL | 717 |
+| Fontes INDICE_SEMANTICO | 140 temas |
+| Fontes KB temático | 1018 entradas |
+
+**Seções mais populadas**: Teologia (1010), Personagens (662), Cristologia (464), Geografia Bíblica (339), Hermenêutica (272)
+
+---
+
+## Fase 2 — GRAPH_RELATIONSHIPS (2026-06-04)
+
+**Objetivo**: Construir o grafo semântico global do Curso Básico para GraphRAG e navegação web.
+
+**Fontes**:
+- `KB_BASICO_COMPLETO.md` (triplas RELACIONAMENTOS GLOBAIS + termos relacionados)
+- `DICIONARIO_GLOBAL.md` (717 entradas)
+- `INDICE_GLOBAL.md` (associações temáticas)
+- `INDICE_SEMANTICO.md` (140 temas, 12 disciplinas)
+
+**Arquivo gerado**: `90_Knowledge_Base/GRAPH_RELATIONSHIPS.md`
+
+**Script**: `_build_graph_relationships.py`
+
+### Formato
+
+```
+Entidade A
+→ relação
+→ Entidade B
+```
+
+Com metadados: categoria origem/destino, disciplina de origem, fonte.
+
+### Métricas
+
+| Métrica | Valor |
+| :--- | ---: |
+| Nós | 2.642 |
+| Arestas | 4.241 |
+| Categorias de nó | Pessoa, Lugar, Doutrina, Conceito, Evento, Livro Bíblico, Heresia, Seita, Instituição, Período Histórico |
+
+**Top entidades**: Jesus Cristo (63), Cristologia (54), Moisés (53), Hermenêutica (50), Soteriologia (47)
+
+**Exemplos curados**: Jesus Cristo → Reino de Deus; Moisés → Pentateuco; Gnosticismo → contradiz → Encarnação; Jerusalém → ocorre em → Evangelhos
+
+### Fase 2 concluída
+
+Todos os artefatos globais do Curso Básico foram gerados. Plataforma web não iniciada nesta etapa.
 
 ---
 

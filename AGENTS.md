@@ -28,6 +28,17 @@ Transformar o conteúdo teológico processado em uma plataforma integrada de est
 * `VERSICULOS.md`
 * `INDICE_SEMANTICO.md`
 
+**Fase 2:** Concluída
+
+* `KB_BASICO_COMPLETO.md`
+* `DICIONARIO_GLOBAL.md`
+* `INDICE_GLOBAL.md`
+* `GRAPH_RELATIONSHIPS.md`
+
+**Fase 3:** Planejamento iniciado
+
+* `ARQUITETURA_PLATAFORMA_WEB.md` (design-only)
+
 > **Nota:** A disciplina **05 Arqueologia e Geografia 2** possui apenas `KB_MASTER.md` (formato legado). As demais 11 disciplinas possuem o conjunto completo de cinco artefatos.
 
 Documentação de referência: [`PADRAO_OFICIAL_PASTOR_IA.md`](PADRAO_OFICIAL_PASTOR_IA.md) · [`RELATORIO_FINAL_FASE_1B.md`](RELATORIO_FINAL_FASE_1B.md) · [`ROADMAP.md`](ROADMAP.md)
